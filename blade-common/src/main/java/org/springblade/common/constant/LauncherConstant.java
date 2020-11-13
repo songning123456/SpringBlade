@@ -17,7 +17,7 @@ public interface LauncherConstant {
 	/**
 	 * nacos dev 地址
 	 */
-	String NACOS_DEV_ADDR = "127.0.0.1:8848";
+	String NACOS_DEV_ADDR = "192.168.8.113:8848";
 
 	/**
 	 * nacos prod 地址
@@ -32,7 +32,7 @@ public interface LauncherConstant {
 	/**
 	 * sentinel dev 地址
 	 */
-	String SENTINEL_DEV_ADDR = "127.0.0.1:8858";
+	String SENTINEL_DEV_ADDR = "192.168.8.113:8858";
 
 	/**
 	 * sentinel prod 地址
@@ -47,7 +47,7 @@ public interface LauncherConstant {
 	/**
 	 * zipkin dev 地址
 	 */
-	String ZIPKIN_DEV_ADDR = "http://127.0.0.1:9411";
+	String ZIPKIN_DEV_ADDR = "http://192.168.8.113:9411";
 
 	/**
 	 * zipkin prod 地址

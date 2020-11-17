@@ -20,6 +20,7 @@ import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * AuthInfo
@@ -27,6 +28,7 @@ import lombok.Data;
  * @author Chill
  */
 @Data
+@NoArgsConstructor
 @ApiModel(description = "认证信息")
 public class AuthInfo {
 	@ApiModelProperty(value = "令牌")
@@ -43,7 +45,7 @@ public class AuthInfo {
 	@ApiModelProperty(value = "第三方系统ID")
 	private String oauthId;
 	@ApiModelProperty(value = "头像")
-	private String avatar = "https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png";
+	private String avatar;
 	@ApiModelProperty(value = "角色名")
 	private String authority;
 	@ApiModelProperty(value = "用户名")
@@ -53,5 +55,5 @@ public class AuthInfo {
 	@ApiModelProperty(value = "过期时间")
 	private long expiresIn;
 	@ApiModelProperty(value = "许可证")
-	private String license = "powered by blade";
+	private String license = "powered by uni";
 }

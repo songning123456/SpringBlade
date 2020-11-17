@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.develop.service;
+package org.springblade.modules.uni.mapper;
 
-import org.springblade.core.mp.base.BaseService;
-import org.springblade.modules.develop.entity.Datasource;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springblade.modules.uni.entity.Datasource;
 
 /**
- * 数据源配置表 服务类
+ * 数据源配置表 Mapper 接口
  *
  * @author Chill
  */
-public interface IDatasourceService extends BaseService<Datasource> {
+public interface DatasourceMapper extends BaseMapper<Datasource> {
 
 }

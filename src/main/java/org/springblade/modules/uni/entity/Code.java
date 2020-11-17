@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.develop.entity;
+package org.springblade.modules.uni.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -120,6 +120,4 @@ public class Code implements Serializable {
 	@TableLogic
 	@ApiModelProperty(value = "是否已删除")
 	private Integer isDeleted;
-
-
 }

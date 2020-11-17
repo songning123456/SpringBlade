@@ -54,7 +54,7 @@ public class TokenUtil {
 	public static AuthInfo createAuthInfo(UserInfo userInfo) {
 		User user = userInfo.getUser();
 
-		//设置jwt参数
+		// 设置jwt参数
 		Map<String, String> param = new HashMap<>(16);
 		param.put(TokenConstant.TOKEN_TYPE, TokenConstant.ACCESS_TOKEN);
 		param.put(TokenConstant.TENANT_ID, user.getTenantId());
@@ -68,6 +68,7 @@ public class TokenUtil {
 		TokenInfo accessToken = SecureUtil.createJWT(param, "audience", "issuser", TokenConstant.ACCESS_TOKEN);
 		AuthInfo authInfo = new AuthInfo();
 		authInfo.setUserId(user.getId());
+		authInfo.setAvatar(user.getAvatar());
 		authInfo.setTenantId(user.getTenantId());
 		authInfo.setOauthId(userInfo.getOauthId());
 		authInfo.setAccount(user.getAccount());

@@ -26,7 +26,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * TokenGranterBuilder
  *
- * @author Chill
+ * @author sonin
  */
 @AllArgsConstructor
 public class TokenGranterBuilder {

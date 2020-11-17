@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.develop.service.impl;
+package org.springblade.modules.uni.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springblade.core.tool.constant.BladeConstant;
-import org.springblade.modules.develop.entity.Code;
-import org.springblade.modules.develop.mapper.CodeMapper;
-import org.springblade.modules.develop.service.ICodeService;
+import org.springblade.modules.uni.entity.Code;
+import org.springblade.modules.uni.mapper.CodeMapper;
+import org.springblade.modules.uni.service.ICodeService;
 import org.springframework.stereotype.Service;
 
 /**

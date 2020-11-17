@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.springblade.modules.develop.mapper.CodeMapper">
+<mapper namespace="org.springblade.modules.uni.mapper.CodeMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="codeResultMap" type="org.springblade.modules.develop.entity.Code">
+    <resultMap id="codeResultMap" type="org.springblade.modules.uni.entity.Code">
         <id column="id" property="id"/>
         <result column="datasource_id" property="datasourceId"/>
         <result column="service_name" property="serviceName"/>

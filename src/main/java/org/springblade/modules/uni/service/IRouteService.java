@@ -13,16 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.develop.mapper;
+package org.springblade.modules.uni.service;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.springblade.modules.develop.entity.Datasource;
+import org.springblade.modules.uni.entity.Route;
+import org.springblade.modules.uni.vo.RouteVO;
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 
 /**
- * 数据源配置表 Mapper 接口
+ *  服务类
  *
- * @author Chill
+ * @author Uni
+ * @since 2020-11-17
  */
-public interface DatasourceMapper extends BaseMapper<Datasource> {
+public interface IRouteService extends IService<Route> {
+
+	/**
+	 * 自定义分页
+	 *
+	 * @param page
+	 * @param route
+	 * @return
+	 */
+	IPage<RouteVO> selectRoutePage(IPage<RouteVO> page, RouteVO route);
 
 }

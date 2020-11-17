@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.develop.controller;
+package org.springblade.modules.uni.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
@@ -28,10 +28,10 @@ import org.springblade.core.tool.api.R;
 import org.springblade.core.tool.constant.RoleConstant;
 import org.springblade.core.tool.utils.Func;
 import org.springblade.develop.support.BladeCodeGenerator;
-import org.springblade.modules.develop.entity.Code;
-import org.springblade.modules.develop.entity.Datasource;
-import org.springblade.modules.develop.service.ICodeService;
-import org.springblade.modules.develop.service.IDatasourceService;
+import org.springblade.modules.uni.entity.Code;
+import org.springblade.modules.uni.entity.Datasource;
+import org.springblade.modules.uni.service.ICodeService;
+import org.springblade.modules.uni.service.IDatasourceService;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;
 

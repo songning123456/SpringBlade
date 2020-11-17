@@ -61,12 +61,7 @@ public class AuthController {
 		String userType = Func.toStr(WebUtil.getRequest().getHeader(TokenUtil.USER_TYPE_HEADER_KEY), TokenUtil.DEFAULT_USER_TYPE);
 
 		TokenParameter tokenParameter = new TokenParameter();
-		tokenParameter.getArgs().set("tenantId", tenantId)
-			.set("account", account)
-			.set("password", password)
-			.set("grantType", grantType)
-			.set("refreshToken", refreshToken)
-			.set("userType", userType);
+		tokenParameter.getArgs().set("tenantId", tenantId).set("account", account).set("password", password).set("grantType", grantType).set("refreshToken", refreshToken).set("userType", userType);
 
 		ITokenGranter granter = TokenGranterBuilder.getGranter(grantType);
 		UserInfo userInfo = granter.grant(tokenParameter);
@@ -74,7 +69,6 @@ public class AuthController {
 		if (userInfo == null || userInfo.getUser() == null) {
 			return R.fail(TokenUtil.USER_NOT_FOUND);
 		}
-
 		return R.data(TokenUtil.createAuthInfo(userInfo));
 	}
 

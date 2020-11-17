@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.develop.mapper;
+package org.springblade.modules.uni.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.springblade.modules.develop.entity.Code;
+import org.springblade.modules.uni.entity.Code;
 
 /**
  * Mapper 接口

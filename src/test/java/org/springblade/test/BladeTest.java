@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springblade.core.test.BladeBootTest;
 import org.springblade.core.test.BladeSpringRunner;
-import org.springblade.modules.desk.service.INoticeService;
+import org.springblade.modules.uni.service.INoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**

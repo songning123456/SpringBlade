@@ -43,7 +43,7 @@ import org.springblade.core.boot.ctrl.BladeController;
  */
 @RestController
 @AllArgsConstructor
-@RequestMapping("common-demo/route")
+@RequestMapping("/route")
 @Api(value = "", tags = "接口")
 public class RouteController extends BladeController {
 

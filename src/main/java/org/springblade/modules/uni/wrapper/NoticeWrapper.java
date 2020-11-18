@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.desk.wrapper;
+package org.springblade.modules.uni.wrapper;
 
 import org.springblade.core.mp.support.BaseEntityWrapper;
 import org.springblade.core.tool.utils.BeanUtil;
 import org.springblade.core.tool.utils.SpringUtil;
-import org.springblade.modules.desk.entity.Notice;
-import org.springblade.modules.desk.vo.NoticeVO;
+import org.springblade.modules.uni.entity.Notice;
+import org.springblade.modules.uni.vo.NoticeVO;
 import org.springblade.modules.system.service.IDictService;
 
 /**

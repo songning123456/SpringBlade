@@ -13,27 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.desk.mapper;
+package org.springblade.modules.uni.service;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import org.springblade.modules.desk.entity.Notice;
-
-import java.util.List;
+import org.springblade.core.mp.base.BaseService;
+import org.springblade.modules.uni.entity.Notice;
 
 /**
- * Mapper 接口
+ * 服务类
  *
  * @author Chill
  */
-public interface NoticeMapper extends BaseMapper<Notice> {
-
-	/**
-	 * 前N条数据
-	 * @param number
-	 * @return
-	 */
-	List<Notice> topList(Integer number);
+public interface INoticeService extends BaseService<Notice> {
 
 	/**
 	 * 自定义分页
@@ -41,6 +32,6 @@ public interface NoticeMapper extends BaseMapper<Notice> {
 	 * @param notice
 	 * @return
 	 */
-	List<Notice> selectNoticePage(IPage page, Notice notice);
+	IPage<Notice> selectNoticePage(IPage<Notice> page, Notice notice);
 
 }

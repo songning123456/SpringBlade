@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.desk.service.impl;
+package org.springblade.modules.uni.service.impl;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.springblade.core.mp.base.BaseServiceImpl;
-import org.springblade.modules.desk.entity.Notice;
-import org.springblade.modules.desk.mapper.NoticeMapper;
-import org.springblade.modules.desk.service.INoticeService;
+import org.springblade.modules.uni.entity.Notice;
+import org.springblade.modules.uni.mapper.NoticeMapper;
+import org.springblade.modules.uni.service.INoticeService;
 import org.springframework.stereotype.Service;
 
 /**

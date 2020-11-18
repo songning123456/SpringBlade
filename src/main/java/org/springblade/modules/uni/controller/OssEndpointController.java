@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.resource;
+package org.springblade.modules.uni.controller;
 
 import io.swagger.annotations.Api;
 import lombok.AllArgsConstructor;
@@ -35,7 +35,7 @@ import org.springframework.web.multipart.MultipartFile;
 @AllArgsConstructor
 @RequestMapping("/blade-resource/oss/endpoint")
 @Api(value = "对象存储端点", tags = "对象存储端点")
-public class OssEndpoint {
+public class OssEndpointController {
 
 	private QiniuTemplate qiniuTemplate;
 

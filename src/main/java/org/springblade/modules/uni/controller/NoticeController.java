@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springblade.modules.desk.controller;
+package org.springblade.modules.uni.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
@@ -26,10 +26,10 @@ import org.springblade.core.mp.support.Condition;
 import org.springblade.core.mp.support.Query;
 import org.springblade.core.tool.api.R;
 import org.springblade.core.tool.utils.Func;
-import org.springblade.modules.desk.entity.Notice;
-import org.springblade.modules.desk.service.INoticeService;
-import org.springblade.modules.desk.vo.NoticeVO;
-import org.springblade.modules.desk.wrapper.NoticeWrapper;
+import org.springblade.modules.uni.entity.Notice;
+import org.springblade.modules.uni.service.INoticeService;
+import org.springblade.modules.uni.vo.NoticeVO;
+import org.springblade.modules.uni.wrapper.NoticeWrapper;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;
 

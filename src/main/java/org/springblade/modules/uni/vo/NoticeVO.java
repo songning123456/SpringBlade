@@ -1,9 +1,9 @@
-package org.springblade.modules.desk.vo;
+package org.springblade.modules.uni.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.springblade.modules.desk.entity.Notice;
+import org.springblade.modules.uni.entity.Notice;
 
 /**
  * 通知公告视图类

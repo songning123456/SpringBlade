@@ -1,4 +1,4 @@
-package org.springblade.modules.desk.controller;
+package org.springblade.modules.uni.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
